@@ -206,6 +206,11 @@ ul, ol {
   border: 0;
 }
 
+.projetos img{
+  width: 18em;
+  height: 18em;
+}
+
 footer {
   background-color: #14004d;
   color: white;

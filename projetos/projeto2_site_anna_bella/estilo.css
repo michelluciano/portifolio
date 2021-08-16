@@ -1,0 +1,42 @@
+body{
+    background: url(imagens/fundo.png);
+    background-color: #d2d2c1;
+    font: 16px Arial, Helvetica, sans-serif;
+}
+
+#principal{
+    width: 900px;/*largura padrão do site*/
+    /*border: 1px solid red;*/
+}
+
+#menu{
+    background: #c5c5b2;
+    /*border: 1px solid red;*/
+    padding: 18px; /*aplica um espaçamento interno*/
+}
+
+#conteudo{
+    background: #e8e8d9;
+    padding: 10px;
+}
+
+a{
+    color: #4b566a;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+    /*border: 1px solid red;*/
+}
+
+.centralizar{
+    text-align: center;
+}
+
+.img-campanha{
+    border: 10px solid #c3c3ae;
+}
+
+h1{
+    color: #828271;
+    font-size: 1.2em;
+}
