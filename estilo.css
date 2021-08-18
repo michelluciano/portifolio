@@ -66,7 +66,7 @@ img.foto {
 
 .zoom:hover img {
   -moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
+  -webkit-transform: scale(1.2);
   transform: scale(1.1);
 }
 
@@ -235,8 +235,34 @@ ul, ol {
 }
 
 footer {
+  
   background-color: #14004d;
   color: white;
   padding: 3.6rem;
+  
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  text-align: right;
+}
+
+.nome{
+  margin-right: 15px;;
+}
+
+.footer_rede_social{
+  text-align: left;
+}
+
+.footer_rede_social a:visited{
+  color: #c6c6c7;
+}
+
+.footer_rede_social a:link{
+  color: white;
+  padding: 10px 12px;
+  text-decoration: none;
+  margin-bottom: 0;
   text-align: center;
 }
